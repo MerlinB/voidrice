@@ -1,0 +1,19 @@
+[general]
+status_path = "~/.vdirsyncer/status"
+
+[pair calendar]
+a = "calendar_local"
+b = "calendar_nextcloud"
+collections = ["from a", "from b"]
+
+[storage calendar_local]
+type = "filesystem"
+path = "~/.calendar/"
+fileext = ".ics"
+
+[storage calendar_nextcloud]
+type = "caldav"
+url = "https://unazoomer.com/remote.php/dav/"
+username.fetch = ["command", "bw", "get", "username", "e4483f6a-d814-4f44-a0cb-a9e400a3ac99"]
+password.fetch = ["command", "bw", "get", "password", "e4483f6a-d814-4f44-a0cb-a9e400a3ac99"]
+

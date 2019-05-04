@@ -1,0 +1,3 @@
+# Switch J and K like in Vimium
+bind --mode=normal J tabnext
+bind --mode=normal K tabprev

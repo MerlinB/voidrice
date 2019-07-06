@@ -11,6 +11,7 @@ export BW_SESSION="HMaRrOFm1f8aaJuBSLLMMD7Te6wxdFeSfy39rwW4Ti3gCLatdJTqAqJ3WqrKI
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
 source $HOME/.local/bin/virtualenvwrapper.sh
+source /usr/share/nvm/init-nvm.sh
 
 [ -f "$HOME/.config/shortcutrc" ] && source "$HOME/.config/shortcutrc" # Load shortcut aliases
 [ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
